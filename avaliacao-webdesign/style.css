@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'heading';
+    src: local('Heading-Pro-Book-trial.ttf'), url('Heading-Pro-Book-trial.ttf');
+}
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'heading';
+}
+span {
+    float: left;
+    font-size: 24px;
+}
+h1 {
+    font-size: 32px;
+    display: inline;
+}
+#global {
+    width: 700px;
+    height: 848px;
+    margin: 20px auto;
+    border: 2px solid #ddd;
+    color: #ddd;
+    padding: 0.5%;
+}
+#global > span {
+    position: relative;
+    top: 0%;
+    transform: translateY(0%);
+    float: left;
+    margin: 2.7% 0px 3.45% 25px;
+}
+span {
+    position: absolute;
+    top: 50%;
+    margin-left: 25px;
+    transform: translateY(-50%);
+}
+#topo {
+    position: relative;
+    float: left;
+    width: calc(100% - 4px);
+    height: 14%;
+    margin: 0% auto 1.5%;
+    border: 2px solid #ef6ebf;
+    color: #ef6ebf;
+}
+#conteudo, #menu {
+    position: relative;
+    float: left;
+    width: 63%;
+    height: 56%;
+    margin: 0% auto 1.5%;
+    border: 2px solid #b3dbef;
+    color: #b3dbef;
+}
+#menu {
+    float: right;
+    width: 34.75%;
+}
+#rodape {
+    position: relative;
+    float: left;
+    width: calc(100% - 4px);
+    height: 16%;
+    margin: 0% auto 1.5%;
+    border: 2px solid #ffb167;
+    color: #ffb167;
+}
